@@ -176,3 +176,24 @@ main {
   width: 100%;
   height: auto;
 }
+
+@media (max-width: 700px) {
+  .links-container {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 615px) {
+  .links-container {
+    gap: 0.7rem;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 520px) {
+  .links-container {
+    font-size: 0.9em;
+    flex-basis: 50px;
+    justify-content: space-between;
+  }
+}
