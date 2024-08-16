@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: white;
+  background-image: url("./cool-background\ \(3\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* logo styles */
+.outer-sphere {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+}
+
+.inner-sphere {
+  position: absolute;
+  z-index: 2;
+  height: 5px;
+  width: 5px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.position1 {
+  top: 8px;
+  left: 38px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.position2 {
+  top: 3px;
+  left: 30px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 300ms;
+}
+.position3 {
+  top: 6px;
+  left: 20px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 600ms;
+}
+.position4 {
+  top: 14px;
+  left: 16px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 900ms;
+}
+.position5 {
+  top: 22px;
+  left: 23px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1200ms;
+}
+
+.position6 {
+  top: 28px;
+  left: 32px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1500ms;
+}
+
+.position7 {
+  top: 37px;
+  left: 35px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 1800ms;
+}
+.position8 {
+  top: 42px;
+  left: 27px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 2100ms;
+}
+.position9 {
+  top: 41px;
+  left: 16px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 2400ms;
+}
+.position10 {
+  top: 34px;
+  left: 8px;
+  animation-name: color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-delay: 2700ms;
+}
+
+@keyframes color {
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: blue;
+  }
+  50% {
+    background-color: white;
+  }
+  75% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: aquamarine;
+  }
+}
