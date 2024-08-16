@@ -17,6 +17,23 @@ body {
   background-size: cover;
 }
 
+#nav-bar {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* logo styles */
 .outer-sphere {
   height: 55px;
