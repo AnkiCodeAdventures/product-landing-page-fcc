@@ -11,7 +11,7 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: white;
+  background-color: #fe7300;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -23,23 +23,24 @@ body {
   font-size: 16px;
   height: 83px;
   display: flex;
-
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 0 1rem;
   background-color: yellow;
 }
-
+.logo-container {
+  width: 60px;
+  height: 60px;
+}
 #logo {
   position: relative;
-  top: -17px;
+  top: 4px;
   transform: rotate(-19deg); /* To make S straight */
 }
 .inner-sphere {
   position: absolute;
   height: 5px;
   width: 5px;
-  background-color: red;
   border-radius: 50%;
 }
 
@@ -164,5 +165,14 @@ a:hover {
 
 #header-img {
   width: 100vw;
+  height: auto;
+}
+
+main {
+  width: 100%;
+}
+
+#video {
+  width: 100%;
   height: auto;
 }

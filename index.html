@@ -15,49 +15,55 @@
   <body>
     <header id="header">
       <nav id="nav-bar">
-        <div id="logo">
-          <div class="inner-sphere position1"></div>
-          <div class="inner-sphere position2"></div>
-          <div class="inner-sphere position3"></div>
-          <div class="inner-sphere position4"></div>
-          <div class="inner-sphere position5"></div>
-          <div class="inner-sphere position6"></div>
-          <div class="inner-sphere position7"></div>
-          <div class="inner-sphere position8"></div>
-          <div class="inner-sphere position9"></div>
-          <div class="inner-sphere position10"></div>
+        <div class="logo-container">
+          <div id="logo">
+            <div class="inner-sphere position1"></div>
+            <div class="inner-sphere position2"></div>
+            <div class="inner-sphere position3"></div>
+            <div class="inner-sphere position4"></div>
+            <div class="inner-sphere position5"></div>
+            <div class="inner-sphere position6"></div>
+            <div class="inner-sphere position7"></div>
+            <div class="inner-sphere position8"></div>
+            <div class="inner-sphere position9"></div>
+            <div class="inner-sphere position10"></div>
+          </div>
         </div>
         <ul class="links-container">
-          <li><a class="nav-link" href="">Steam Deck OLED</a></li>
-          <li><a class="nav-link" href="">Dock</a></li>
-          <li><a class="nav-link" href="">Software</a></li>
-          <li><a class="nav-link" href="">Deck Verified</a></li>
-          <li><a class="nav-link" href="">Tech Specs</a></li>
+          <li><a class="nav-link" href="#oled">Steam Deck OLED</a></li>
+          <li><a class="nav-link" href="#dock">Dock</a></li>
+          <li><a class="nav-link" href="#software">Software</a></li>
+          <li><a class="nav-link" href="#deck">Deck Verified</a></li>
+          <li><a class="nav-link" href="#tech-specs">Tech Specs</a></li>
         </ul>
       </nav>
       <img id="header-img" src="./videoframe_5592_girl_playing_dog.png"
       alt="girl playing with dog"
     </header>
-    <video autoplay width="100vw" height="auto">
-      <source src="./overview_oled.webm" />
-    </video>
-    <video autoplay width="100vw" height="auto">
-      <source src="./f1784a83bb2425052db9484ba6a6d91ee9740d40.mp4" />
-    </video>
-    <video autoplay width="100vw" height="auto">
-      <source src="./lifestyle_hotTub.webm" />
-    </video>
-    <video autoplay width="100vw" height="auto">
-      <source src="./lifestyle_dog.webm" />
-    </video>
-
+    <main>
+      <div id="oled">
+        <video id="video" src="./overview_oled.webm" autoplay></video>
+      </div>
+      <div id="dock">
+        <video id="video" src="./lifestyle_hotTub.webm" autoplay></video>
+      </div>
+      <div id="software">
+        <video id="video" src="./case_silhouette.webm" autoplay></video>
+      </div>
+      <div id="deck">
+        <video id="video" src="./lifestyle_airplane.webm" autoplay></video>
+      </div>
+      <div id="tech-specs">
+        <img id="video" src="./tech-specs_oled_1_english.png" />
+      </div>
+    </main>
     <form
       id="form"
       action="https://www.freecodecamp.com/email-submit"
       method="post"
     >
       <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="email" />
+      <input type="email" id="email" placeholder="email" name="email" />
       <input type="submit" value="submit" id="submit" />
     </form>
   </body>
